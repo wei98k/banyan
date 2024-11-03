@@ -1,0 +1,11 @@
+[Unit]
+Description=Banyan Golang Application
+After=network.target
+
+[Service]
+ExecStart=/opt/myserver/webapp/banyan/banyan_linux
+WorkingDirectory=/opt/myserver/webapp/banyan
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -4,6 +4,18 @@
 
 GOOS=linux GOARCH=amd64 go build -o bin/banyan_linux
 
+### 配置信息
+
+```azure
+# 图片目录
+mkdir bucket/i
+# 视频目录
+mkdir bucket/v 
+# 音频目录
+mkdir bucket/a
+# 文件目录
+mkdir bucket/f
+```
 
 ### centos 部署
 
